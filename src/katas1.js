@@ -11,7 +11,7 @@ function oneThroughTwenty() {
 function evensToTwenty() {
     
    let contador = 1 ;
-    while (contador <= 10) {
+    while (contador <= 20) {
         let resto = contador % 2;
         if (resto == 0){
             console.log(contador);
@@ -25,9 +25,14 @@ function evensToTwenty() {
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+ let contador = 1 ;
+    while (contador <= 20) {
+        let resto = contador % 3;
+        if (resto == 0){
+            console.log(contador);
+        }
+        contador++;
+    }
    
 }
 
