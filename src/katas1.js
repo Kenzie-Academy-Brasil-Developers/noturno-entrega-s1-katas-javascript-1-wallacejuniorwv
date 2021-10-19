@@ -25,10 +25,10 @@ function evensToTwenty() {
 
 function oddsToTwenty() {
     
- let contador = 1 ;
+let contador = 1 ;
     while (contador <= 20) {
-        let resto = contador % 3;
-        if (resto == 0){
+        let resto = contador % 2;
+        if (resto == 1){
             console.log(contador);
         }
         contador++;
