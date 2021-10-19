@@ -6,7 +6,8 @@ function oneThroughTwenty() {
    
 
 
-//call function oneThroughTwenty
+call function oneThroughTwenty
+    
 
 function evensToTwenty() {
     
@@ -20,9 +21,9 @@ function evensToTwenty() {
     }
   
 }
+call function evensToTwenty
 
-//call function evensToTwenty
-
+    
 function oddsToTwenty() {
     
 let contador = 1 ;
@@ -36,17 +37,22 @@ let contador = 1 ;
    
 }
 
-//call function oddsToTwenty
+call function oddsToTwenty
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+ let contador = 1 ;
+    while (contador <= 100) {
+        let resto = contador % 5;
+        if (resto == 0){
+            console.log(contador);
+        }
+        contador++;
+    }
 
 }
 
-//call function multiplesOfFive
+call function multiplesOfFive
 
 function squareNumbers() {
     
