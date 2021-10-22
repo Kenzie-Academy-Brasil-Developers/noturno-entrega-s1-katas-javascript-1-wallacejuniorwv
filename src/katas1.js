@@ -3,11 +3,7 @@ function oneThroughTwenty() {
   for (let number = 1; number <= 20; number++){
     console.log(number);
   }
-   
-
-
-call function oneThroughTwenty
-    
+      
 
 function evensToTwenty() {
     
@@ -21,9 +17,8 @@ function evensToTwenty() {
     }
   
 }
-call function evensToTwenty
 
-    
+   
 function oddsToTwenty() {
     
 let contador = 1 ;
@@ -36,8 +31,6 @@ let contador = 1 ;
     }
    
 }
-
-call function oddsToTwenty
 
 function multiplesOfFive() {
     
@@ -52,8 +45,6 @@ function multiplesOfFive() {
 
 }
 
-call function multiplesOfFive
-
 function squareNumbers() {
     
  /* Your code goes below
@@ -65,13 +56,14 @@ function squareNumbers() {
 //call function squareNumbers
 
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+    let contador = 20;
+        for (let i = contador - 1 ; i >= 1; i--){
+         console.log(i);
+
+}
 }
 
-//call function countingBackwards
+
 
 function evenNumbersBackwards() {
     
