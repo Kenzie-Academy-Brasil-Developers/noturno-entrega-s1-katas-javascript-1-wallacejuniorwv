@@ -1,15 +1,16 @@
-function oneThroughTwenty() {
+function oneThroughTwenty(num) {
     
-  for (let number = 1; number <= 20; number++){
+  for (let number = 1; number <= num; number++){
     console.log(number);
   }
-    function oneThroughTwenty
+}
+   oneThroughTwenty(20);
       
 
-function evensToTwenty() {
+function evensToTwenty(num) {
     
    let contador = 1 ;
-    while (contador <= 20) {
+    while (contador <= num) {
         let resto = contador % 2;
         if (resto == 0){
             console.log(contador);
@@ -17,13 +18,13 @@ function evensToTwenty() {
         contador++;
     }
 }
-    function evensToTwenty
+evensToTwenty(20);
 
    
-function oddsToTwenty() {
+function oddsToTwenty(num) {
     
 let contador = 1 ;
-    while (contador <= 20) {
+    while (contador <= num) {
         let resto = contador % 2;
         if (resto == 1){
             console.log(contador);
@@ -31,12 +32,12 @@ let contador = 1 ;
         contador++;
     }
 }
-    function oddsToTwenty
+oddsToTwenty(20)
 
-function multiplesOfFive() {
+function multiplesOfFive(num) {
     
  let contador = 1 ;
-    while (contador <= 100) {
+    while (contador <= num) {
         let resto = contador % 5;
         if (resto == 0){
             console.log(contador);
@@ -44,7 +45,7 @@ function multiplesOfFive() {
         contador++;
     }
 }
-    function multiplesOfFive
+multiplesOfFive(100);
     
 
 function squareNumbers() {
@@ -57,35 +58,37 @@ function squareNumbers() {
 
 function squareNumbers
 
-function countingBackwards() {
+function countingBackwards(num) {
     let contador = 20;
-        for (let i = contador - 1 ; i >= 1; i--){
-         console.log(i);
+        for (let numero = contador - 1 ; numero >= 1; numero--){
+         console.log(numero);
 
 }
 }
-    function countingBackwards
+countingBackwards(20)
     
 
-
-
-function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function retornaPares(num){
+let contador = num;
+  for (let numero = contador ; numero >= 1; numero--){
+	if (numero % 2 === 0){
+		console.log(numero);
 }
 
-//call function evenNumbersBackwards
+}
+}
+retornaPares(20)
 
-function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function retornaPares(num){
+let contador = num;
+  for (let numero = contador ; numero >= 1; numero--){
+	if (numero % 2 === 1){
+		console.log(numero);
 }
 
-//call function oddNumbersBackwards
+}
+}
+retornaPares(20)
 
 function multiplesOfFiveBackwards() {
     
