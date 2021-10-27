@@ -48,13 +48,15 @@ function multiplesOfFive(num) {
 multiplesOfFive(100);
     
 
-function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+function squareNumbers(num) {
+  let contador = 1;
+  for (let numero = 1 ; numero <= 10; numero++){
+    let quadPerf = numero * numero;
+    console.log(quadPerf);
+  }
 }
+
+squareNumbers(100)
 
 function squareNumbers
 
@@ -90,20 +92,25 @@ let contador = num;
 }
 retornaPares(20)
 
-function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function multiplesOfFiveBackwards(num) {
+let contador = num ;
+   for (let numero = contador; numero >= 1; numero--){
+        let resto = numero % 5;
+        if (resto == 0){
+            console.log(numero);
+        }
+        contador++;
+    }
+}
+multiplesOfFiveBackwards(100);
+
+function squareNumbersBackwards(num) {
+  
+  let contador = num;
+  for (let numero = 10 ; numero >= 1; numero--){
+    let quadPerf = numero * numero;
+    console.log(quadPerf);
+  }
 }
 
-//call function multiplesOfFiveBackwards
-
-function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function squareNumbersBackwards
+squareNumbersBackwards(100)
